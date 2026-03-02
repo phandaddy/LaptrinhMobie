@@ -4,6 +4,6 @@
 ## Demo:
 ![image](./images/Demo1.png)
 ![image](./images/Demo2.png)
-<<<<<<< HEAD
+
 ![image](./images/Demo3.png)
 
