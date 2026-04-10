@@ -3,10 +3,10 @@
 ## **Lớp: D18CNMP4**
 ## Demo:
 ![image](Demo/DEMO1.jpg)
-![image](./DEMO/DEMO2.jpg)
-![image](./DEMO/DEMO3.jpg)
-![image](./DEMO/DEMO4.jpg)
-![image](./DEMO/DEMO5.jpg)
-![image](./DEMO/DEMO6.jpg)
-![image](./DEMO/DEMO7.jpg)
-![image](./DEMO/DEMO8.jpg)
+![image](Demo/DEMO2.jpg)
+![image](Demo/DEMO3.jpg)
+![image](Demo/DEMO4.jpg)
+![image](Demo/DEMO5.jpg)
+![image](Demo/DEMO6.jpg)
+![image](Demo/DEMO7.jpg)
+![image](Demo/DEMO8.jpg)
