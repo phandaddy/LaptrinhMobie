@@ -16,6 +16,9 @@ import MainTabNavigator from './screens/MainTabNavigator';
 import ProductDetailScreen from './screens/ProductDetail';
 import SearchScreen from './screens/SearchScreen';
 import CategoryScreen from './screens/CategoryScreen'
+import FilterScreen from './screens/FilterScreen';
+// import FavoriteScreen from './screens/FavoriteScreen';
+// import CartScreen from './screens/CartScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -26,7 +29,7 @@ export default function App() {
         initialRouteName="Splash" 
         screenOptions={{ headerShown: false }} 
       >
-        <Stack.Screen name="Splash" component={MainTabNavigator} />
+        <Stack.Screen name="Splash" component={SplashScreen} />
         <Stack.Screen name="Onboarding" component={OnboardingScreen} />
         <Stack.Screen name="SignIn" component={SignInScreen} />
         <Stack.Screen name="Number" component={NumberScreen} options={{ headerShown: false }} />
@@ -37,7 +40,10 @@ export default function App() {
         <Stack.Screen name="Home" component={MainTabNavigator} options={{ headerShown: false }} />
         <Stack.Screen name="ProductDetail" component={ProductDetailScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Search" component={SearchScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Filter" component={FilterScreen} options={{ headerShown: false }} />
         <Stack.Screen name="Category" component={CategoryScreen} options={{ headerShown: false }} />
+        {/* <Stack.Screen name="Favorite" component={FavoriteScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Cart" component={CartScreen} options={{ headerShown: false }} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

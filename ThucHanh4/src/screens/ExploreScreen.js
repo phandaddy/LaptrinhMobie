@@ -15,35 +15,35 @@ const exploreCategories = [
   { 
     id: '1', 
     name: 'Frash Fruits\n& Vegetable', 
-    image: require('../../assets/images/FrashFruits&Vegatable.png'), 
+    image: require('../../assets/images/FrashFruitsVegatable.png'), 
     backgroundColor: '#EEF8F2', 
     borderColor: '#53B175'      
   },
   { 
     id: '2', 
     name: 'Cooking Oil\n& Ghee', 
-    image: require('../../assets/images/CookingOil&Ghee.png'), 
+    image: require('../../assets/images/CookingOilGhee.png'), 
     backgroundColor: '#FFF6EE', 
     borderColor: '#F8A44C'      
   },
   { 
     id: '3', 
     name: 'Meat & Fish', 
-    image: require('../../assets/images/Meat&Fish.png'),
+    image: require('../../assets/images/MeatFish.png'),
     backgroundColor: '#FDEAEB', 
     borderColor: '#F7A593'      
   },
   { 
     id: '4', 
     name: 'Bakery & Snacks', 
-    image: require('../../assets/images/Bakery&Snack.png'), 
+    image: require('../../assets/images/BakerySnack.png'), 
     backgroundColor: '#F4EBF7', 
     borderColor: '#D3B0E0'      
   },
   { 
     id: '5', 
     name: 'Dairy & Eggs', 
-    image: require('../../assets/images/Dairy&Egg.png'), 
+    image: require('../../assets/images/DairyEgg.png'), 
     backgroundColor: '#FFFCEB', 
     borderColor: '#FDE598'      
   },
@@ -84,6 +84,7 @@ const ExploreScreen = ({ navigation }) => {
         <Text style={styles.headerTitle}>Find Products</Text>
       </View>
 
+      {/* 🔥 GẮN LINK 2: SEARCH BAR CHUYỂN THÀNH NÚT BẤM SANG MÀN SEARCH */}
       <TouchableOpacity 
         style={styles.searchContainer}
         activeOpacity={0.8}

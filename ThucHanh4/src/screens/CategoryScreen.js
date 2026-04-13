@@ -5,11 +5,11 @@ import { Ionicons } from '@expo/vector-icons';
 // Dữ liệu mẫu (giả lập cho danh mục Beverages)
 const categoryProducts = [
   { id: '1', name: 'Diet Coke', unit: '355ml, Price', price: '$1.99', image: require('../../assets/images/DietCoke.png') },
-  { id: '2', name: 'Sprite Can', unit: '325ml, Price', price: '$1.50', image: require('../../assets/images/Apple.png') }, // Thay bằng ảnh Sprite nếu có
-  { id: '3', name: 'Apple & Grape Juice', unit: '2L, Price', price: '$15.99', image: require('../../assets/images/Apple&GrapeJuice.png') },
-  { id: '4', name: 'Orenge Juice', unit: '2L, Price', price: '$15.99', image: require('../../assets/images/Apple.png') },
+  { id: '2', name: 'Sprite Can', unit: '325ml, Price', price: '$1.50', image: require('../../assets/images/Sprite.png') }, // Thay bằng ảnh Sprite nếu có
+  { id: '3', name: 'Apple & Grape Juice', unit: '2L, Price', price: '$15.99', image: require('../../assets/images/AppleGrapeJuice.png') },
+  { id: '4', name: 'Orenge Juice', unit: '2L, Price', price: '$15.99', image: require('../../assets/images/OrangeJuice.png') },
   { id: '5', name: 'Coca Cola Can', unit: '325ml, Price', price: '$4.99', image: require('../../assets/images/Cocca.png') },
-  { id: '6', name: 'Pepsi Can', unit: '330ml, Price', price: '$4.99', image: require('../../assets/images/Apple.png') },
+  { id: '6', name: 'Pepsi Can', unit: '330ml, Price', price: '$4.99', image: require('../../assets/images/Pessi.png') },
 ];
 
 const CategoryDetailScreen = ({ route, navigation }) => {
