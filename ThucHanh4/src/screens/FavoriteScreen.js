@@ -5,11 +5,11 @@ import { Ionicons } from '@expo/vector-icons';
 // Data mẫu cho trang Favorite
 // Note: Những ảnh nào bạn chưa có thì cứ dùng tạm Apple.png nhé!
 const favoriteItems = [
-  { id: '1', name: 'Sprite Can', unit: '325ml, Price', price: '$1.50', image: require('../../assets/images/Apple.png') }, 
+  { id: '1', name: 'Sprite Can', unit: '325ml, Price', price: '$1.50', image: require('../../assets/images/Sprite.png') }, 
   { id: '2', name: 'Diet Coke', unit: '355ml, Price', price: '$1.99', image: require('../../assets/images/DietCoke.png') },
   { id: '3', name: 'Apple & Grape Juice', unit: '2L, Price', price: '$15.50', image: require('../../assets/images/Apple&GrapeJuice.png') },
-  { id: '4', name: 'Coca Cola Can', unit: '325ml, Price', price: '$4.99', image: require('../../assets/images/Apple.png') },
-  { id: '5', name: 'Pepsi Can', unit: '330ml, Price', price: '$4.99', image: require('../../assets/images/Apple.png') },
+  { id: '4', name: 'Coca Cola Can', unit: '325ml, Price', price: '$4.99', image: require('../../assets/images/Cocca.png') },
+  { id: '5', name: 'Pepsi Can', unit: '330ml, Price', price: '$4.99', image: require('../../assets/images/Pepsi.png') },
 ];
 
 const FavoriteScreen = () => {
